@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "nombre": "Luna",
+    "especie": "Perro",
+    "edad": 3,
+    "descripcion": "Mestiza muy cariñosa y juguetona, ideal para familias con niños.",
+    "estado": "En adopción",
+    "imagen": "/img/mascota.svg"
+  },
+  {
+    "id": 2,
+    "nombre": "Milo",
+    "especie": "Gato",
+    "edad": 1,
+    "descripcion": "Gatito curioso y tranquilo, acostumbrado a vivir en departamento.",
+    "estado": "En adopción",
+    "imagen": "/img/mascota.svg"
+  },
+  {
+    "id": 3,
+    "nombre": "Thor",
+    "especie": "Perro",
+    "edad": 5,
+    "descripcion": "Labrador obediente y protector, le encanta pasear al aire libre.",
+    "estado": "Reservada",
+    "imagen": "/img/mascota.svg"
+  },
+  {
+    "id": 4,
+    "nombre": "Simba",
+    "especie": "Gato",
+    "edad": 2,
+    "descripcion": "Felino dulce y dormilón con pelaje atigrado muy suave.",
+    "estado": "Adoptada",
+    "imagen": "/img/mascota.svg"
+  },
+  {
+    "id": 5,
+    "nombre": "Bella",
+    "especie": "Perro",
+    "edad": 0,
+    "descripcion": "Cachorra rescatada llena de energía que busca un hogar definitivo.",
+    "estado": "En adopción",
+    "imagen": "/img/mascota.svg"
+  }
+]

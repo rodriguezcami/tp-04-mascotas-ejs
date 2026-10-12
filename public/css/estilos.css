@@ -1,0 +1,185 @@
+:root {
+  --color-primario: #2c6e49;
+  --color-primario-hover: #1e4b32;
+  --color-fondo: #f9fbf8;
+  --color-tarjeta: #ffffff;
+  --color-texto: #2d312e;
+  --color-borde: #d8e2dc;
+  --color-error: #b00020;
+  --color-error-fondo: #fde8e8;
+  --color-foco: #ff9f1c;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-foco);
+  outline-offset: 2px;
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: var(--color-primario);
+  color: #fff;
+  padding: 1rem 0;
+}
+
+header .contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+nav ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+}
+
+nav a:hover {
+  background-color: var(--color-primario-hover);
+}
+
+main {
+  flex: 1;
+  padding: 2rem 0;
+}
+
+.boton {
+  display: inline-block;
+  background-color: var(--color-primario);
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  text-decoration: none;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.boton:hover {
+  background-color: var(--color-primario-hover);
+}
+
+.grilla-mascotas {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.tarjeta-mascota {
+  background: var(--color-tarjeta);
+  border: 1px solid var(--color-borde);
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.tarjeta-mascota h3 {
+  color: var(--color-primario);
+  margin-bottom: 0.5rem;
+}
+
+.tarjeta-detalle {
+  background: var(--color-tarjeta);
+  border: 1px solid var(--color-borde);
+  border-radius: 8px;
+  padding: 2rem;
+  max-width: 600px;
+  margin: 1.5rem auto;
+  text-align: center;
+}
+
+.imagen-mascota {
+  width: 140px;
+  height: 140px;
+  margin: 1rem auto;
+  display: block;
+}
+
+.formulario-nueva {
+  background: var(--color-tarjeta);
+  border: 1px solid var(--color-borde);
+  border-radius: 8px;
+  padding: 2rem;
+  max-width: 550px;
+  margin: 1.5rem auto;
+}
+
+.campo {
+  margin-bottom: 1.2rem;
+}
+
+.campo label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+
+.campo input,
+.campo select,
+.campo textarea {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid var(--color-borde);
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.alerta-error {
+  background-color: var(--color-error-fondo);
+  color: var(--color-error);
+  padding: 1rem;
+  border: 1px solid var(--color-error);
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.vacio {
+  background-color: #fff;
+  border: 1px dashed var(--color-borde);
+  padding: 2rem;
+  text-align: center;
+  border-radius: 8px;
+  margin-top: 1.5rem;
+}
+
+footer {
+  background-color: #e5ede7;
+  padding: 1.5rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: auto;
+}

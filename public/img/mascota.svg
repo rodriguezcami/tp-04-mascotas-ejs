@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Huella de mascota">
+  <rect width="120" height="120" rx="16" fill="#e5ede7"/>
+  <ellipse cx="60" cy="78" rx="22" ry="18" fill="#2c6e49"/>
+  <ellipse cx="32" cy="50" rx="9" ry="12" fill="#2c6e49"/>
+  <ellipse cx="50" cy="34" rx="9" ry="12" fill="#2c6e49"/>
+  <ellipse cx="70" cy="34" rx="9" ry="12" fill="#2c6e49"/>
+  <ellipse cx="88" cy="50" rx="9" ry="12" fill="#2c6e49"/>
+</svg>
